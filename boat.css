@@ -1,0 +1,172 @@
+#wrapper {
+	width:800px;
+	height:600px;
+	background-color:#CCC;
+	border:5px solid #F90;
+}
+
+#sky {
+	height:200px;
+	background:-webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.21, #e4f7fa),
+	color-stop(0.41,#d6f2f9));
+}
+
+#river {
+	height:150px;
+	background-color:#09f;
+}
+
+#land {
+	height:100px;
+	background-color:#6c0;
+}
+
+.triangle-1 {
+	border-color: transparent transparent #633 transparent;
+	border-style:solid;
+	border-width:130px;
+	height:0px;
+	width:0px;
+	position:relative;
+	left 5px;
+	margin-top:-513px;
+	z-index: 1;
+}
+
+
+.triangle-2 {
+	border-color: transparent transparent #633 transparent;
+	border-style:solid;
+	border-width:110px;
+	height:0px;
+	width:0px;
+	position:relative;
+	left 190px;
+	margin-top:-220px;
+	z-index: 1;
+}
+
+
+.triangle-3 {
+	border-color: transparent transparent #633 transparent;
+	border-style:solid;
+	border-width:130px;
+	height:0px;
+	width:0px;
+	position:relative;
+	left 380px;
+	margin-top:-220px;
+	z-index: 1;
+}
+
+
+.triangle-4 {
+	border-color: transparent transparent #633 transparent;
+	border-style:solid;
+	border-width:130px;
+	height:0px;
+	width:0px;
+	position:relative;
+	left 540px;
+	margin-top:-260px;
+	z-index: 1;
+}
+
+#ele1 {
+	width:50px;
+	height:50px;
+	background-color:#FFF;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	float:left;
+	position:absolute;
+	margin-left:20px;
+}
+
+#ele2 {
+	width:50px;
+	height:50px;
+	background-color:#FFF;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	float:left;
+	margin-left:10px;
+}
+
+#ele3 {
+	width:50px;
+	height:50px;
+	background-color:#FFF;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	float:left;
+	margin-top:5px;
+	margin-left:5px;
+}
+
+#ele4 {
+	width:50px;
+	height:50px;
+	background-color:#FFF;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	float:left;
+	position:absolute;
+	margin-top:20px;
+	margin-left:23px;
+}
+
+
+#base {
+	border-color:#FFF transparent transparent transparent;
+	border-style:solid;
+	border-width:20px;
+	width:70px;
+	position:relative;
+}
+
+#pal {
+	border-color:transparent transparent transparent #FFF;
+	border-style:solid;
+	border-width:15px;
+	height:30px;
+	top:-82px;
+	left:60px;
+	position:relative;
+}
+
+#clouds {
+	width:150px;
+	height:150px;
+	overflow:hidden;
+	margin-left:50px;
+	padding-top:10px;
+	-webkit-animation-name:animation1;
+	-webkit-animation-duration:20s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:linear;
+}
+
+@-web-keyframes animation1{
+	0%{margin-left:-60px;}
+	100%{margin-left:820px;}
+}
+
+#boat {
+	margin-left:500px;
+	position:relative;
+	top:100px;
+	-webkit-animation-name:animation11;
+	-webkit-animation-duration:30s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:linear;
+}
+
+@-webkit-keyframes animation11{
+	0%{margin-left:800px;}
+	100%{margin-left:-100px;}
+}
